@@ -12,10 +12,16 @@ activity tasarımları aşamasından önce proje çizim şeklinde planlanmış v
 izlenmesi sağlanmıştır.
 
 Sayfa Taslak Tasarımları:
+
+
 ![Taslak Çizimler](https://github.com/acelyanoguz/Mobil-App/blob/main/SS/taslakSayfaTasarimlari.PNG)
+
 
 Ana Sayfa Görseli:
 
+
 ![Ana Sayfa Görseli](https://github.com/acelyanoguz/Mobil-App/blob/main/SS/anasayfa.PNG)
+
+
 
 Projenin çalışır halinin görsellerine [SS](https://github.com/acelyanoguz/Mobil-App/tree/main/SS) isimli klasör'den erişebilirsiniz.
