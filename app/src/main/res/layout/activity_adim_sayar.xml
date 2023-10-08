@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".adimSayar">
+
+    <ImageView
+        android:id="@+id/imageViewAdim"
+        android:layout_width="248dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/ayakizi1" />
+
+    <TextView
+        android:id="@+id/txtBilgi"
+        android:layout_width="130dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="Adımlar"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#f45bb6"></TextView>
+
+    <TextView
+        android:id="@+id/txtAdimlar"
+        android:layout_width="85dp"
+        android:layout_height="76dp"
+        android:text="0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#f45bb6"
+        android:gravity="center"></TextView>
+
+
+</LinearLayout>

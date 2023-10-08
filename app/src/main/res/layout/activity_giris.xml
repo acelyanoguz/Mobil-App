@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".Giris">
+    <EditText
+        android:id="@+id/EdEmail"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="E-mail giriniz"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisProfil" />
+
+    <EditText
+        android:id="@+id/EdSifre"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Şifrenizi Giriniz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EdEmail" />
+
+    <Button
+        android:id="@+id/giris"
+        android:layout_width="158dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:backgroundTint="#f45bb6"
+        android:text="Giriş Yap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EdSifre" />
+
+    <Button
+        android:id="@+id/kayitol"
+        android:layout_width="158dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#f45bb6"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/giris" />
+
+    <ImageView
+        android:id="@+id/girisProfil"
+        android:layout_width="236dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/ic_baseline_person_outline_24"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

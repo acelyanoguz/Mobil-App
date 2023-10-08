@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90896141319",
+    "project_id": "saglikapp-veritabani",
+    "storage_bucket": "saglikapp-veritabani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90896141319:android:9102113ccd0a5d56f82ea2",
+        "android_client_info": {
+          "package_name": "com.acelyaoguz.stajprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90896141319-9ns02hfauv135330jd87gu91boij76uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPBIxtcy7QkjzmU22-RMKywzNg2fCdxSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90896141319-9ns02hfauv135330jd87gu91boij76uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

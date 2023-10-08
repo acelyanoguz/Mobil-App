@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acelyaoguz.stajprojesi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StajProjesi">
+        <activity android:name=".kayitSonuc"></activity>
+        <activity android:name=".HedefListem" />
+        <activity android:name=".kaydol" />
+        <activity android:name=".AnaMenu" />
+        <activity android:name=".kronometre" />
+        <activity android:name=".adimSayar" />
+        <activity android:name=".vucutKitleIndex" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Giris">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".SuHatirlaticiBildirimi" />
+    </application>
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+</manifest>
